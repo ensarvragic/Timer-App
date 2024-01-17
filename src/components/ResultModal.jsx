@@ -1,7 +1,7 @@
-import { ForwardRef } from "react";
+import { forwardRef } from "react";
 
 
-const ResultModal = ForwardRef (function ResultModal({ ref, result, targetTime }) {
+const ResultModal = forwardRef (function ResultModal({result, targetTime}, ref) {
   return (
     <dialog ref={ref} className="result-modal">
       <h2>You {result}</h2>
