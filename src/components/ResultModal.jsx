@@ -30,7 +30,7 @@ const ResultModal = forwardRef(function ResultModal({ onReset, targetTime, remai
         <button>Close</button>
       </form>
     </dialog>,
-    
+    document.getElementById('modal')
   );
 });
 
